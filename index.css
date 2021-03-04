@@ -1,0 +1,26 @@
+.block {
+  display: inline-block;
+  position: relative;
+  border: 1px dotted #999999;
+  text-align: center;
+  font-size: 0.85em;
+}
+
+.divblock {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#pascalTriangleDiv {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.block:nth-child(odd) {
+  background: cyan;
+}
+
+.block:nth-child(even) {
+  background: hotpink;
+}
